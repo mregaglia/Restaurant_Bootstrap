@@ -21,6 +21,9 @@ text-decoration: none;
 }
 
 /* Main */
+
+/* INDEX */
+
 html, body {
   background-color: #343A40;
 }
@@ -43,3 +46,39 @@ html, body {
   padding: 300px 25px;
   font-family: Montserrat, sans-serif;
 }
+
+/* MENU */
+
+#headmenu {
+  margin-bottom: 80px;
+}
+
+#menulist {
+  color: black ;
+}
+
+.plat {
+font-size: 18px;
+text-transform: uppercase;
+}
+
+h2 {
+font-size: 24px;
+}
+
+/* IMAGES */
+
+#tof {
+vertical-align: inherit;
+}
+
+
+
+}
+
+/* .img-fluid {
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+} */
