@@ -30,7 +30,6 @@ html, body {
 
 .container {
   color: white;
-  max-height:
 }
 .navbar {
   margin-bottom: 50px;
@@ -48,7 +47,9 @@ html, body {
 }
 
 /* MENU */
-
+# logonav {
+  color: yellow;
+}
 #headmenu {
   margin-bottom: 80px;
 }
@@ -71,14 +72,45 @@ font-size: 24px;
 #tof {
 vertical-align: inherit;
 }
-
-
+.page-link:hover {
+  color: #ffff;
+  background-color: #343A40;
+  border-color: #FADF12;
+}
+.page-link {
+  color: #FADF12;
+  background-color: #343A40;
+  border-color: #FADF12;
+}
+.page-item.active .page-link {
+  color: #343A40;
+  background-color: #FADF12;
+  border-color: #FADF12;
+}
+.page-item.disabled .page-link {
+  background-color: #343A40;
+  border-color: #FADF12;
+  color: #4e5760;
 
 }
 
-/* .img-fluid {
-  width: 200px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-} */
+
+/* RESTAURANTS */
+
+#bx {
+padding-left: -20px;
+}
+
+.map-responsive {
+  padding-left: 0px;
+}
+p {
+  padding-left: 1em;
+}
+
+.btn {
+  margin-left: 20px;
+  background-color: #FADF12 ;
+  color: #343A40 ;
+  border: 0;
+}
