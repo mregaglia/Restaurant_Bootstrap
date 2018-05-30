@@ -28,6 +28,16 @@ html, body {
   background-color: #343A40;
 }
 
+.bg-dark {
+  background-color: #FADF12 !important;
+}
+.navbar-dark .navbar-brand{
+  color: #343A40;
+  font-family: 'Alfa Slab One', cursive;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #343A40;
+}
 .container {
   color: white;
 }
@@ -42,14 +52,16 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  padding: 300px 25px;
+  padding: 300px ;
   font-family: Montserrat, sans-serif;
+  font-size: 21px;
+}
+.jumbotron h1 {
+  font-family: 'Alfa Slab One', cursive;
 }
 
 /* MENU */
-# logonav {
-  color: yellow;
-}
+
 #headmenu {
   margin-bottom: 80px;
 }
@@ -65,6 +77,7 @@ text-transform: uppercase;
 
 h2 {
 font-size: 24px;
+
 }
 
 /* IMAGES */
@@ -80,6 +93,7 @@ vertical-align: inherit;
 .page-link {
   color: #FADF12;
   background-color: #343A40;
+  border: 0;
   border-color: #FADF12;
 }
 .page-item.active .page-link {
@@ -91,7 +105,6 @@ vertical-align: inherit;
   background-color: #343A40;
   border-color: #FADF12;
   color: #4e5760;
-
 }
 
 
