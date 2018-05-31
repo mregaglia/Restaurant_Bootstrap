@@ -26,20 +26,28 @@ text-decoration: none;
 
 html, body {
   background-color: #343A40;
-}
 
+}
+#Calque_1  {
+
+  width: 70px;
+  padding-right: 15px ;
+  vertical-align: middle;
+
+}
 .bg-dark {
   background-color: #FADF12 !important;
 }
 .navbar-dark .navbar-brand{
   color: #343A40;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Alfa Slab One',serif;
 }
 .navbar-dark .navbar-nav .nav-link{
   color: #343A40;
 }
 .container {
   color: white;
+
 }
 .navbar {
   margin-bottom: 50px;
@@ -55,9 +63,12 @@ html, body {
   padding: 300px ;
   font-family: Montserrat, sans-serif;
   font-size: 21px;
+  text-align: center;
 }
 .jumbotron h1 {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Alfa Slab One', serif;
+  text-align: center;
+
 }
 
 /* MENU */
