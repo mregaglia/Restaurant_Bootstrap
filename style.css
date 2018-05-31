@@ -138,3 +138,13 @@ p {
   color: #343A40 ;
   border: 0;
 }
+
+.btn:hover {
+  background-color: white;
+  color: #FADF12;
+}
+
+.infos {
+  padding-top: 26%;
+  padding-bottom: 20px;
+}
