@@ -60,14 +60,18 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  padding: 300px ;
+  padding-top: 300px ;
+  padding-bottom: 300px ;
   font-family: Montserrat, sans-serif;
   font-size: 21px;
   text-align: center;
+  text-shadow: 2px 2px 2px #343A40 ;
 }
 .jumbotron h1 {
   font-family: 'Alfa Slab One', serif;
-  text-align: center;
+  padding-left: 15px;
+  text-shadow: 4px 4px #e01926 ;
+
 
 }
 
@@ -88,6 +92,7 @@ text-transform: uppercase;
 
 h2 {
 font-size: 24px;
+padding-top: 15px;
 
 }
 
